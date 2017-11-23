@@ -1,0 +1,5 @@
+C:\ApplicationTest_Vageesan\Student.WebApp\FactoryPattern\bin\Debug\FactoryPattern.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+C:\ApplicationTest_Vageesan\Student.WebApp\FactoryPattern\obj\Debug\FactoryPattern.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\FactoryPattern\obj\Debug\FactoryPattern.pdb

@@ -1,0 +1,10 @@
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\Student.Core.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\Student.Core.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\obj\Debug\Student.Core.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\obj\Debug\Student.Core.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\Student.Core.dll.config
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\EntityFramework.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\EntityFramework.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Core\obj\Debug\Student.Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\obj\Debug\Student.Application.csprojResolveAssemblyReference.cache
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Student.Application.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Student.Application.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Autofac.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\AutoMapper.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Student.Core.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Student.Core.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\Autofac.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\AutoMapper.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\obj\Debug\Student.Application.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\obj\Debug\Student.Application.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\EntityFramework.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.Application\bin\Debug\EntityFramework.xml

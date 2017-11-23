@@ -1,0 +1,15 @@
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\Student.EntityFramework.dll.config
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\Student.EntityFramework.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\Student.EntityFramework.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\EntityFramework.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\Student.Core.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\Student.Core.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\EntityFramework.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.csprojResolveAssemblyReference.cache
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.dll
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.pdb
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.Migrations.initial.resources
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.csproj.GenerateResource.Cache
+C:\ApplicationTest_Vageesan\Student.WebApp\Student.EntityFramework\obj\Debug\Student.EntityFramework.Migrations.v1.resources
