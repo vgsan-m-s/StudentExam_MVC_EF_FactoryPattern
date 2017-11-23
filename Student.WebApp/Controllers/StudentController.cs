@@ -20,14 +20,15 @@ namespace Student.WebApp.Controllers
         // GET: Student
         public ActionResult Index()
         {
-            List<StudentInfoDto> studentList = _studentService.GetStudentsInfo();
+            List<StudentInfoDto> studentList = _studentService.GetStudents();
             return View(studentList);
         }
 
         // GET: Student/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            StudentInfoDto student = _studentService.GetStudent(id);
+            return View(student);
         }
 
         // GET: Student/Create
@@ -42,7 +43,15 @@ namespace Student.WebApp.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
+                StudentInfoDto stu = new StudentInfoDto()
+                {
+                    Code = collection["Code"],
+                    FirstName = collection["FirstName"],
+                    LastName = collection["LastName"],
+                    Age = Convert.ToInt32(collection["Age"])
+                };
+
+                _studentService.CreateStudent(stu);
 
                 return RedirectToAction("Index");
             }
@@ -55,7 +64,8 @@ namespace Student.WebApp.Controllers
         // GET: Student/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            StudentInfoDto student = _studentService.GetStudent(id);
+            return View(student);
         }
 
         // POST: Student/Edit/5
@@ -64,29 +74,16 @@ namespace Student.WebApp.Controllers
         {
             try
             {
-                // TODO: Add update logic here
+                StudentInfoDto stu = new StudentInfoDto()
+                {
+                    Id = id,
+                    Code = collection["Code"],
+                    FirstName = collection["FirstName"],
+                    LastName = collection["LastName"],
+                    Age = Convert.ToInt32(collection["Age"])
+                };
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Student/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Student/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
+                _studentService.UpdateStudent(id, stu);
 
                 return RedirectToAction("Index");
             }

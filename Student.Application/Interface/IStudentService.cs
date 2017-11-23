@@ -12,9 +12,9 @@ namespace Student.Application.Interface
     /// </summary>
     public interface IStudentService
     {
-        StudentInfoDto GetStudent();
+        StudentInfoDto GetStudent(int Id);
         List<StudentInfoDto> GetStudents();
         Task CreateStudent(StudentInfoDto student);
-        Task UpdateStudent(StudentInfoDto student);
+        Task UpdateStudent(int Id, StudentInfoDto student);
     }
 }

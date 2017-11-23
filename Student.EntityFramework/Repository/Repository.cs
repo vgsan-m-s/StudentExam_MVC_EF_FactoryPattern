@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace Student.EntityFramework.Repository
 {
+    /// <summary>
+    /// Repository Pattern
+    /// </summary>
+    /// <typeparam name="TEntity"></typeparam>
     public class Repository<TEntity> : IRepository<TEntity>
         where TEntity : class, IEntity
     {
@@ -41,21 +45,21 @@ namespace Student.EntityFramework.Repository
         public async Task Create(TEntity entity)
         {
             _dbContext.Set<TEntity>().Add(entity);
-            await _dbContext.SaveChangesAsync();
+            _dbContext.SaveChanges();
         }
 
         public async Task Update(int id, TEntity entity)
         {
             _dbContext.Set<TEntity>().Remove(entity);
             _dbContext.Set<TEntity>().Add(entity);
-            await _dbContext.SaveChangesAsync();
+            _dbContext.SaveChanges();
         }
 
         public async Task Delete(int id)
         {
             var entity = await _dbContext.Set<TEntity>().FindAsync(id);
             _dbContext.Set<TEntity>().Remove(entity);
-            await _dbContext.SaveChangesAsync();
+            _dbContext.SaveChanges();
         }
     }
 }

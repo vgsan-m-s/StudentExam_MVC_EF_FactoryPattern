@@ -61,10 +61,10 @@ namespace Student.Application.Service
         /// </summary>
         /// <param name="student"></param>
         /// <returns></returns>
-        public async Task UpdateStudent(StudentInfoDto student)
+        public async Task UpdateStudent(int Id, StudentInfoDto student)
         {
             StudentInfo stu = Mapper.Map<StudentInfoDto, StudentInfo>(student);
-            await _studentRepository.Update(student.Id, stu);
+            await _studentRepository.Update(Id, stu);
         }
     }
 }
